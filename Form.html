@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Examen Unidad 2</title>
+  <link rel="stylesheet" type="text/css" href="Css/Sform.css" >
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Formularios</h1>
+  </header>
+
+<section>
+  <br><fieldset>
+     <legend>Datos Personales</legend>
+     <table align="center">
+       <tr>
+     <th align="center" width="30%">Nombre<br>
+     <input type="text" name="nombre"><br></th>
+     <th align="center" width="30%">Apellidos<br>
+     <input type="text" name="apellido"><br></th>
+     <th align="center" width="30%">Fecha de Nacimiento<br>
+     <input type="date" id="visita" name="visista" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"><br></th>
+     </tr></table>
+   </fieldset>
+
+   <br><fieldset>
+     <legend>Datos Cuenta</legend>
+     <table align="center">
+       <tr>
+     <th align="center" width="30%">Correo<br>
+       <input type="email" class="email" name="correo" placeholder="tucorreo@dominio.com" validate="true"><br></th>
+       <th align="center" width="30%">Usuario<br>
+     <input type="text" name="usuario"><br></th>
+     <th align="center" width="30%">Contraseña:<br>
+     <input type="password" name="password"><br></th>
+   </tr></table><br>
+   </fieldset>
+
+   <br>
+   <table align="center">
+     <tr><th align="left" width="50%">
+     <form action="index.html" align="left">
+     <input type="submit" value="Regresar" float="left">
+     </form></th>
+
+     <th align="right" width="50%" class="row">
+     <input type="submit" value="Enviar" float="right">
+     </form></th></tr>
+     </table><br>
+
+     <footer id="pie">
+         Garc&iacute;a Aguilar Celeste
+     </footer>
+   </section>
+   </body>
+   </html>

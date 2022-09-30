@@ -1,0 +1,49 @@
+
+section{
+  background-image: url(../Img/fondo_form.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: calc(100vh - 100%);
+}
+
+#agrupar {
+width: 960px;
+margin: 15px auto;
+text-align: left;
+}
+
+#cabecera {
+background: #c5d0d5;
+border: 1px solid #9da5bb;
+padding: 10px;
+}
+
+#pie {
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+}
+
+input[type=submit] {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+.btn {
+  display: block;
+  margin: 1em 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
